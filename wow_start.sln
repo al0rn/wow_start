@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wow_start", "wow_start.csproj", "{CA81CA48-6D4E-4439-B9D8-FC676AD879BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA81CA48-6D4E-4439-B9D8-FC676AD879BF}.Debug|x64.ActiveCfg = Debug|x64
+		{CA81CA48-6D4E-4439-B9D8-FC676AD879BF}.Debug|x64.Build.0 = Debug|x64
+		{CA81CA48-6D4E-4439-B9D8-FC676AD879BF}.Release|x64.ActiveCfg = Release|x64
+		{CA81CA48-6D4E-4439-B9D8-FC676AD879BF}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD7307F3-448C-49BD-B646-37C8137979F5}
+	EndGlobalSection
+EndGlobal
