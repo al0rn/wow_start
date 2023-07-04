@@ -52,9 +52,9 @@ namespace WoW_Auto_Login
 
                     Console.WriteLine("Настройка завершена. Выход через 5 секунд.");
 #if WITHSOUNDS
-                    Console.Beep();
+#                    Console.Beep();
 #endif
-                    System.Threading.Thread.Sleep(5000);
+                    System.Threading.Thread.Sleep(1000);
                     return;
                 }
             #endregion
@@ -118,11 +118,11 @@ namespace WoW_Auto_Login
                 System.Windows.Forms.SendKeys.SendWait("{ENTER}");
             }
 
-            Console.WriteLine("Авторизация произведена, выход через 5 секунд.");
+            Console.WriteLine("Авторизация произведена, выход через 1 секунду.");
 #if WITHSOUNDS
-            Console.Beep();
+#            Console.Beep();
 #endif
-            System.Threading.Thread.Sleep(5000);
+            System.Threading.Thread.Sleep(1000);
             #endregion
         }
     }
